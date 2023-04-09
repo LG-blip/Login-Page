@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://localhost/Guvi-LoginPage/css/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center justify-content-center inner-row">
+            <div class="col-md-7 col-lg-5">
+                <!-- Login Page -->
+                <div class="form-box login-form p-5 ">
+                    <div class="form-title">
+                        <h2 class ="fw-bold mb-3 text-center">MAC</h2>
+                    </div> 
+
+                    <form action ="" id="login_form" role="form" method="post">
+                        <div class="form-floating md-3">
+                            <input type="email" class="form-control form-control-sm" placeholder="Email" id="Email" required>
+                            <label for="Email">Email</label>
+                        </div>
+                        <br>
+                        <div class="form-floating md-3">
+                            <input type="password" class="form-control form-control-sm" placeholder="Password" id="Password" required minlength="7">  
+                            <label for="Password">Password</label>
+                        </div>
+                        <div class="mt-3 text-center">
+                            <a class="btn button primaryBg text-white" id="Loginbtn" role="button">Login</a>
+                        </div>
+                        <br>
+                        <div class="display text-center" id="logindisp">
+                            <p></p>
+                        </div>
+                    </form>
+
+                    <div class="mt-3 text-center">
+                        <span>Don't have an account?</span> <a class="p-0 border-0 bg-transparent primaryColor" id="Signin_btn" href="register.html">Sign Up</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./js/login.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</body>
+</html>

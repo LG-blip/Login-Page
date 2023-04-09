@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://localhost/Guvi-LoginPage/css/style.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center justify-content-center inner-row">
+            <div class="col-lg-5 col-md-7">
+                <!-- Sign UP page -->
+                <div class="form-box registration-form p-5 ">
+                    <div class="form-title">
+                        <h2 class ="fw-bold mb-3 ">Create your MAC Account</h2>
+                    </div> 
+    
+                    <form action ="" method="post" id="register-form" role="form">
+                        <div class="form-floating md-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="First Name" id="input-firstname" required >
+                            <label for="floatingEmail">First Name</label>
+                        </div>
+                        <br>
+                        <div class="form-floating md-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="Last Name" id="input-lastname" maxlength="10">
+                            <label for="floatingPassword">Last Name</label>
+                        </div>
+                        <br>
+                        <div class="form-floating md-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="Gender" id="input-gender" required >
+                            <label for="floatingEmail">Gender</label>
+                        </div>
+                        <br>
+                        <div class="form-floating md-3">
+                            <input type="email" class="form-control form-control-sm" placeholder="First Name" id="input-email" required >
+                            <label for="floatingEmail">Email</label>
+                        </div>
+                        <br>
+                        <div class="form-floating md-3">
+                            <input type="password" class="form-control form-control-sm" placeholder="Last Name" id="input-password" required minlength="7">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="mt-3 text-center">
+                            <button class="btn button primaryBg text-white">Sign Up</button>
+                        </div>
+                        <br>
+                        <div class="disp text-center">
+                            <p></p>
+                        </div>
+                    </form>
+
+                    <div class="mt-3 text-center">
+                        <span>Aldready have an account?</span> <a class="p-0 border-0 bg-transparent primaryColor" id="login_btn" href="./login.html">Login</a>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/register.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</body>
+</html>
