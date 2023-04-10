@@ -1,6 +1,6 @@
 # Guvi-Task!
-first the index page will be opening when we host.
-[Screenshot (72)](https://user-images.githubusercontent.com/83444630/230824323-abcc3796-6abc-4504-9d28-51288f13e183.png)
+first the index page will be opening when we host
+![Screenshot (72)](https://user-images.githubusercontent.com/83444630/230824323-abcc3796-6abc-4504-9d28-51288f13e183.png)
 redirecting to registeration page 
 ![Screenshot (73)](https://user-images.githubusercontent.com/83444630/230824332-3a24f29d-1214-4220-8347-378c810c708c.png)
 profile page
