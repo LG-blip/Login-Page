@@ -19,7 +19,7 @@ if(!empty($email))
 	{
         $hash=password_hash($password,PASSWORD_DEFAULT);
 		$sql = "INSERT INTO registration(firstName, lastName, email, password, gender) VALUES('$firstName', '$lastName', '$email', '$hash', '$gender')";
-        $result= mysqli_query($conn, $sql);   // login page la table ah varum while use pannu run pannanum
+        $result= mysqli_query($conn, $sql);   
         echo "$result";
 	}
     catch (mysqli_sql_exception) {
